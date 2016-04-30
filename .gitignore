@@ -1,3 +1,11 @@
+#linux
+/build
+/bin
+/obj
+
+#visual studio
+*.vcxproj
+*.filters
 # Compiled Object files
 *.slo
 *.lo
