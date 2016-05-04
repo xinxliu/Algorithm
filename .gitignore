@@ -1,17 +1,22 @@
 #linux
-/build
-/bin
-/obj
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+html/
 
 #visual studio
 *.vcxproj
 *.filters
-
+.vs/
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+*.lnk
+*.sln
+*.sdf
 
 # Precompiled Headers
 *.gch

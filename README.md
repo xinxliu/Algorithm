@@ -4,4 +4,4 @@
 ***
 
 1. **EM:** Expectation-Maximization
-+. **DP:** Dynamic Programming
++ **DP:** Dynamic Programming
