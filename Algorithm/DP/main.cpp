@@ -6,6 +6,9 @@ int main() {
 	/*for (int i = 0; i < 11; i++) {
 		cout << p[i] << ",";
 	}*/
+	cout << memoized_dp_fib(10) << endl;
+	cout << fib(10) << endl;
+	cout << bt_dp_fib(10);
 	getchar();
 	return 0;
 }
