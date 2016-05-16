@@ -9,6 +9,14 @@ int main() {
 	cout << memoized_dp_fib(10) << endl;
 	cout << fib(10) << endl;
 	cout << bt_dp_fib(10);
+
+	char a[] = "university";
+	char b[] = "unverstiy";
+	int distance1 = dtw(sizeof(a) - 1, sizeof(b) - 1, a, b);
+	cout << distance1 << endl;
+	int distance2 = btu_dtw(sizeof(a) - 1, sizeof(b) - 1, a, b);
+	cout << distance2 << endl;
+	
 	getchar();
 	return 0;
 }
