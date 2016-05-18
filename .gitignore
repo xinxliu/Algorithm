@@ -9,6 +9,7 @@ html/
 *.vcxproj
 *.filters
 .vs/
+*.opendb
 # Compiled Object files
 *.slo
 *.lo
